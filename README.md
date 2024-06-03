@@ -34,6 +34,9 @@ O histórico dos resultados é mostrado abaixo e pode ser obtido no Kaggle:
 - O MLPClassifier (um algoritmo de Redes Neurais) obteve a maior acurácia nos dados de validação entre todos os modelos vistos até agora, porém ao usar esse modelo nos dados de teste (que faremos a submissão) o resultado foi pior que na etapa 3, **mostrando que provavelmente tivemos um overfitting do nosso modelo**
 - ***O score público retornado pelo Kaggle foi: 0,69856***
 
+
+Nota: Esse é um repositório baseado em um projeto da "Hashtag Programação".
+
 ## ETAPA 5: Utilizando o GridSearchCV para Determinar os Melhores Parâmetros do Modelo
 - Agora utilizamos o **GridSearchCV** para determinar os melhores parâmetros para os 3 modelos que utilizamos na etapa anterior
 - Nesse caso, o modelo escolhido foi aquele utilizando o **RandomForest** e o resultado melhorou consideravalmente em relação a etapa 4 e foi melhor que na etapa 3
